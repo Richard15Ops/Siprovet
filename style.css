@@ -3,21 +3,15 @@
 }
 
 .text-purplee {
-    color:#2b169f !important; 
+  color: #2b169f !important;
 }
 
 .text-blue {
-    color:#000000 !important; 
+  color: #000000 !important;
 }
 
 .bg-purple {
   background-color: #8969d8 !important;
-}
-
-.collab-img {
-  width: 100px;   /* or your preferred size */
-  height: auto;
-  margin: 8px;
 }
 
 .image-cell {
@@ -32,60 +26,28 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 6px; /* Optional: adds rounded corners */
+  border-radius: 6px;
 }
 
-/* Reduce logo size */
-.navbar-brand img {
-  height: 48px;
-}
-
-/* Shrink navbar text size and spacing */
+/* Navbar tweaks */
 .navbar {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  font-size: 1rem; /* Or adjust as needed */
-}
-
-/* Reduce h5 contact text size */
-.navbar h5 {
-  font-size: 0.875rem;
-  margin-bottom: 0;
-}
-
-/* Tweak Mali flag positioning */
-.navbar .text-end img {
-  height: 40px;
-  margin-right: -300px;
-  top: -40px;
-}
-
-/* Compact navbar overall */
-.navbar {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  font-size: 1rem;
   min-height: 60px;
 }
 
-/* Reduce spacing inside container rows */
 .navbar .row {
   margin: 0;
   padding: 0;
 }
 
-/* Shrink contact h5 section */
 .navbar h5 {
+  font-size: 0.875rem;
   margin: 0;
   padding: 0;
-  font-size: 0.875rem;
 }
 
-/* Reduce logo size */
-.navbar-brand img {
-  height: 48px;
-}
-
-/* Tidy up right column */
 .navbar .text-end {
   padding: 0;
 }
@@ -97,48 +59,12 @@
   margin-right: -300px;
 }
 
-/* Shrink nav links */
+.navbar-brand img {
+  height: 48px;
+}
+
 .navbar-nav .nav-link {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   font-size: 0.95rem;
-}
-
-/* Shrink overall navbar height */
-.navbar {
-  padding-top: 0.0.5rem;
-  padding-bottom: 0.05rem;
-  min-height: 56px; /* You can adjust this value */
-}
-
-/* Shrink logo size */
-.navbar-brand img {
-  height: 40px;
-}
-
-/* Compact header text */
-.navbar h5 {
-  font-size: 0.8rem;
-  margin: 0;
-  padding: 0;
-}
-
-/* Adjust flag size and positioning */
-.navbar .text-end img {
-  height: 36px;
-  position: relative;
-  top: -28px;
-  margin-right: -200px;
-}
-
-/* Tweak nav link spacing */
-.navbar-nav .nav-link {
-  padding: 0.3rem 0.5rem;
-  font-size: 0.9rem;
-}
-
-.collab-img {
-  width: 100%;
-  max-width: 150px;
-  height: auto;
 }
