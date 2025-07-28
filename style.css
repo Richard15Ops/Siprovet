@@ -136,3 +136,9 @@
   padding: 0.3rem 0.5rem;
   font-size: 0.9rem;
 }
+
+.collab-img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
