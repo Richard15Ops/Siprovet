@@ -2,31 +2,91 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Siprovet</title>
+  <title>Siprovet | Veterinary Excellence in Mali</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Siprovet is Mali's trusted supplier of veterinary products, services, and expertise since 1994.">
   <link rel="shortcut icon" type="image/x-icon" href="images/Logo.webp">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet">
+
   <style>
     body {
+      font-family: 'Poppins', sans-serif;
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      background-color: #fff;
+      line-height: 1.7;
     }
+
+    .text-purplee {
+      color: #6c4ba5;
+    }
+
+    h1, h2 {
+      font-weight: 700;
+    }
+
+    .navbar-nav .nav-link {
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #4a2880;
+    }
+
+    section, .py-5 {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+
     .collab-img {
       width: 100%;
-      max-width: 150px;
+      max-width: 140px;
       height: auto;
+      object-fit: contain;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    footer {
+      font-size: 0.9rem;
+      background-color: #f8f9fa;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      .collab-img {
+        max-width: 100px;
+      }
+
+      footer small {
+        font-size: 0.8rem;
+      }
     }
   </style>
 </head>
 <body>
+  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-lg sticky-top fs-5">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-lg sticky-top">
+    <div class="container-fluid px-4">
       <a class="navbar-brand fs-1" href="index.html">
         <img src="images/siprovetlogo.jpg" alt="Siprovet Logo" class="img-fluid" style="height: 72px;">
       </a>
@@ -38,7 +98,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item"><a class="nav-link text-purplee active" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link text-purplee" href="Resources.Html">Resources</a></li>
+          <li class="nav-item"><a class="nav-link text-purplee" href="Resources.html">Resources</a></li>
           <li class="nav-item"><a class="nav-link text-purplee" href="Contact.html">Contact Info</a></li>
           <li class="nav-item"><a class="nav-link text-purplee" href="HoursOp.html">Operational Hours</a></li>
         </ul>
@@ -48,11 +108,11 @@
   </nav>
 
   <!-- Main Content -->
-  <div class="container-fluid bg-light py-5">
-    <div class="row px-3">
+  <section class="container-fluid bg-light">
+    <div class="row px-4">
       <div class="col-12 col-md-8 mx-auto text-start mb-4">
-        <h1 class="display-5 text-purplee mb-3">Who are we?</h1>
-        <p class="fs-4 text-purplee">
+        <h1 class="display-5 text-purplee mb-3">Who Are We?</h1>
+        <p class="fs-5 text-purplee">
           Siprovet has been importing and distributing veterinary products and equipment in Mali since 1994.<br>
           We rely on the quality of our partners' products around the world to make a lasting contribution to improving animal health and production in Mali.<br>
           Our knowledgeable team is available 7 days a week to meet the needs of your livestock and pets.
@@ -60,38 +120,38 @@
       </div>
     </div>
 
-    <!-- Custom Cards (Placeholder) -->
+    <!-- Cards Placeholder -->
     <div class="container py-4" id="custom-cards">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
-        <!-- Add your cards here -->
+        <!-- Optional cards can go here -->
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- Partner Logos -->
-<div class="container py-5">
-  <h2 class="text-center mb-4">Some of our partners include:</h2>
-  <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3 justify-content-center">
-    <div class="col"><img src="partners/anupco.jpg" class="img-fluid" alt="Anupco"></div>
-    <div class="col"><img src="partners/calier.jpg" class="img-fluid" alt="Calier"></div>
-    <div class="col"><img src="partners/ceva.jpg" class="img-fluid" alt="Ceva"></div>
-    <div class="col"><img src="partners/coophavet.jpg" class="img-fluid" alt="Coophavet"></div>
-    <div class="col"><img src="partners/hipra.jpg" class="img-fluid" alt="Hipra"></div>
-    <div class="col"><img src="partners/intraco.jpg" class="img-fluid" alt="Intraco"></div>
-    <div class="col"><img src="partners/laborlvc.jpg" class="img-fluid" alt="Labor LVC"></div>
-    <div class="col"><img src="partners/laprovet.jpg" class="img-fluid" alt="Laprovet"></div>
-    <div class="col"><img src="partners/merial.jpg" class="img-fluid" alt="Merial"></div>
-    <div class="col"><img src="partners/pantex.jpg" class="img-fluid" alt="Pantex"></div>
-    <div class="col"><img src="partners/qalian.jpg" class="img-fluid" alt="Qalian"></div>
-    <div class="col"><img src="partners/topsun.jpg" class="img-fluid" alt="Topsun"></div>
-    <div class="col"><img src="partners/veterneriakela.jpg" class="img-fluid" alt="Veterneriakela"></div>
-    <div class="col"><img src="partners/vetoquinol.jpg" class="img-fluid" alt="Vetoquinol"></div>
-  </div>
-</div>
+  <section class="container text-center">
+    <h2 class="text-purplee mb-5">Trusted Global Partners</h2>
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-4 justify-content-center">
+      <div class="col"><img src="partners/anupco.jpg" class="img-fluid collab-img" alt="Anupco"></div>
+      <div class="col"><img src="partners/calier.jpg" class="img-fluid collab-img" alt="Calier"></div>
+      <div class="col"><img src="partners/ceva.jpg" class="img-fluid collab-img" alt="Ceva"></div>
+      <div class="col"><img src="partners/coophavet.jpg" class="img-fluid collab-img" alt="Coophavet"></div>
+      <div class="col"><img src="partners/hipra.jpg" class="img-fluid collab-img" alt="Hipra"></div>
+      <div class="col"><img src="partners/intraco.jpg" class="img-fluid collab-img" alt="Intraco"></div>
+      <div class="col"><img src="partners/laborlvc.jpg" class="img-fluid collab-img" alt="Labor LVC"></div>
+      <div class="col"><img src="partners/laprovet.jpg" class="img-fluid collab-img" alt="Laprovet"></div>
+      <div class="col"><img src="partners/merial.jpg" class="img-fluid collab-img" alt="Merial"></div>
+      <div class="col"><img src="partners/pantex.jpg" class="img-fluid collab-img" alt="Pantex"></div>
+      <div class="col"><img src="partners/qalian.jpg" class="img-fluid collab-img" alt="Qalian"></div>
+      <div class="col"><img src="partners/topsun.jpg" class="img-fluid collab-img" alt="Topsun"></div>
+      <div class="col"><img src="partners/veterneriakela.jpg" class="img-fluid collab-img" alt="Veterneriakela"></div>
+      <div class="col"><img src="partners/vetoquinol.jpg" class="img-fluid collab-img" alt="Vetoquinol"></div>
+    </div>
+  </section>
 
   <!-- Footer -->
-  <footer class="text-center py-3 bg-light">
-    <small>&copy; Copyrighted, All rights reserved by Siprovet.</small>
+  <footer class="text-center py-4">
+    <small>&copy; 2025 Siprovet. All rights reserved. | info@siprovet-mali.com</small>
   </footer>
 
   <!-- Google Translate -->
